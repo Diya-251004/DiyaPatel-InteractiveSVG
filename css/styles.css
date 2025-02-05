@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px;
+    overflow-x: auto; 
+    white-space: nowrap; 
+}
+
+.icon {
+    width: 100px; 
+    height: 100px; 
+    margin: 0 10px; 
+    transition: transform 0.3s, filter 0.3s;
+    flex-shrink: 0; 
+}
+
+.icon:hover {
+    transform: rotate(360deg) scale(1.1);
+}
+
+.icon img {
+    width: 100%; 
+    height: auto;
+}
